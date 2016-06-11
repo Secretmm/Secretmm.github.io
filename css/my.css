@@ -1,0 +1,222 @@
+@charset "utf-8";
+/*mynote*/
+input[type^=button]{
+	 			width:150px;
+        height:150px;
+        font-family:微软雅黑;
+        font-size:16px;
+        color:#EFFFE9;
+        border:1px solid ;
+        border-radius:75px;
+		-webkit-border-radius:75px;  /*兼容chrome和Safari*/
+		-moz-border-radius:75px;     /*兼容Firefox*/
+		-ms-border-radius:75px;      /*兼容IE*/
+		-o-border-radius:75px;       /*兼容opera*/
+        background-color:#66CC66;
+
+}
+@-webkit-keyframes mybtn
+        {
+            0%{-webkit-transform:translateX(0px);}
+            30%{-webkit-transform:translateX(-10px);}
+            60%{-webkit-transform:translateX(10px);}
+            100%{-webkit-transform:translateX(0px);}
+
+        }
+   @-moz-keyframes mybtn
+        {
+            0%{-moz-transform:translateX(0px);}
+            30%{-moz-transform:translateX(-10px);}
+            60%{-moz-transform:translateX(10px);}
+            100%{-moz-transform:translateX(0px);}
+        }
+ @-ms-keyframes mybtn
+        {
+            0%{-ms-transform:translateX(0px);}
+            30%{-ms-transform:translateX(-10px);}
+            60%{-ms-transform:translateX(10px);}
+            100%{-ms-transform:translateX(0px);}
+
+        }
+@-o-keyframes mybtn
+        {
+            0%{-o-transform:translateX(0px);}
+            30%{-o-transform:translateX(-10px);}
+            60%{-o-transform:translateX(10px);}
+            100%{-o-transform:translateX(0px);}
+        }
+/*
+@-webkit-keyframes mybtn
+        {
+            0%{-webkit-transform:rotate(90deg);}
+            30%{-webkit-transform:rotate(180deg);}
+            60%{-webkit-transform:rotate(270deg);}
+            100%{-webkit-transform:rotate(360deg);}
+
+        }
+   @-moz-keyframes mybtn
+        {
+            0%{-moz-transform:rotate(90deg);}
+            30%{-moz-transform:rotate(180deg);}
+            60%{-moz-transform:rotate(270deg);}
+            100%{-moz-transform:rotate(360deg);}
+        }
+   @-ms-keyframes mybtn
+        {
+            0%{-ms-transform:rotate(90deg);}
+            30%{-ms-transform:rotate(180deg);}
+            60%{-ms-transform:rotate(270deg);}
+            100%{-ms-transform:rotate(360deg);}
+        }
+   @-o-keyframes mybtn
+        {
+            0%{-o-transform:rotate(90deg);}
+            30%{-o-transform:rotate(180deg);}
+            60%{-o-transform:rotate(270deg);}
+            100%{-o-transform:rotate(360deg);}
+        }
+*/
+input[type^=button]:hover {
+			font-size:25px;
+
+			-webkit-animation-name:mybtn;
+            -webkit-animation-duration:0.5s;
+            -webkit-animation-timing-function:linear;
+
+			-moz-animation-name:mybtn;
+            -moz-animation-duration:0.5s;
+            -moz-animation-timing-function:linear;
+
+            -ms-animation-name:mybtn;
+            -ms-animation-duration:0.5s;
+            -ms-animation-timing-function:linear;
+
+            -o-animation-name:mybtn;
+            -o-animation-duration:0.5s;
+            -o-animation-timing-function:linear;
+        }
+
+input[value^=html] {
+						background-color:#f26d5b;
+        }
+input[value^=css] {
+						background-color:#a8dba8;
+        }
+input[value^=js] {
+						background-color:#79bd9a;
+        }
+input[value^=jQuery] {
+						background-color:#3b8686;
+        }
+input[value^=项目经验] {
+						background-color:#004e66;
+        }
+#tabtn{
+        	margin:12% 20%;
+        }
+
+/*page3*/
+
+#ladiv{
+			width:30%;
+		    height:80%;
+					/*border:1px solid black ;*/
+
+        	margin:12% 30%;
+        }
+
+
+input[type^=text]{
+				height:30px;
+				text-align:center;
+                font-size:10px;
+                color:#FFFFF3;
+                border:1px solid #3ac569;
+                border-radius:75px;
+                -webkit-opacity:0;
+                -moz-opacity:0;
+                -ms-opacity:0;
+                -o-opacity:0;
+				-webkit-border-radius:75px;  /*兼容chrome和Safari*/
+				-moz-border-radius:75px;     /*兼容Firefox*/
+				-ms-border-radius:75px;      /*兼容IE*/
+				-o-border-radius:75px;       /*兼容opera*/
+                background-color:#3ac569;
+
+        -webkit-animation-name:mylab;
+        -webkit-animation-duration:5s;
+        -webkit-animation-timing-function:linear;
+        -webkit-animation-fill-mode:forwards;
+
+        -moz-animation-name:mylab;
+        -moz-animation-duration:5s;
+        -moz-animation-timing-function:linear;
+        -moz-animation-fill-mode:forwards;
+
+        -ms-animation-name:mylab;
+        -ms-animation-duration:5s;
+        -ms-animation-timing-function:linear;
+        -ms-animation-fill-mode:forwards;
+
+        -o-animation-name:mylab;
+        -o-animation-duration:5s;
+        -o-animation-timing-function:linear;
+        -0-animation-fill-mode:forwards;
+}
+ input[value^=html]{
+ 	margin:1% 10%;
+    animation-delay:1.7s;
+
+ }
+  input[value^=SQL]{
+ 	margin:1% 5% 1% 5%;
+    animation-delay:1s;
+ }
+  input[value^=jQu]{
+ 	margin:1% 1%;
+    animation-delay:1.3s;
+ }
+
+   input[value^=asp]{
+ 	margin:1% 3% 1% 10%;
+    animation-delay:1.6s;
+ }
+   input[value^=java]{
+ 	margin:1% 8%;
+    animation-delay:2s;
+ }
+
+        @-webkit-keyframes mylab
+        {
+            0%{-webkit-opacity:0;}
+            25%{-webkit-opacity:0.25;}
+            50%{-webkit-opacity:0.5;}
+            75%{-webkit-opacity:0.75;}
+            100%{-webkit-opacity:1;}
+        }
+
+        @-moz-keyframes mylab
+        {
+            0%{-moz-opacity:0;}
+            25%{-moz-opacity:0.25;}
+            50%{-moz-opacity:0.5;}
+            75%{-moz-opacity:0.75;}
+            100%{-moz-opacity:1;}
+        }
+        @-ms-keyframes mylab
+        {
+            0%{-ms-opacity:0;}
+            25%{-moz-opacity:0.25;}
+            50%{-ms-opacity:0.5;}
+            75%{-ms-opacity:0.75;}
+            100%{-ms-opacity:1;}
+        }
+
+         @-o-keyframes mylab
+        {
+            0%{-o-opacity:0;}
+            25%{-o-opacity:0.25;}
+            50%{-o-opacity:0.5;}
+            75%{-o-opacity:0.75;}
+            100%{-o-opacity:1;}
+        }
