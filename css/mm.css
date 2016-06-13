@@ -118,7 +118,7 @@
         background: #33CC66;
     }
     .page2 {
-        background: #33CC99;
+        background: #79bd9a;
     }
     .page3 {
         background: #88dba3;
@@ -154,7 +154,7 @@
         height: 14px;
     }
 
-        p {
+        .pone {
         width: 100%;
         color:#fff;
         font-size:150px;

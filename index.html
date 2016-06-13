@@ -11,6 +11,10 @@
     <link rel="shortcut icon" href="images/mm.ico">
     <link rel="stylesheet" type="text/css" href="css/mm.css">
     <link rel="stylesheet" type="text/css" href="css/my.css">
+
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+
     <script type="text/javascript" src="js/respond.js"></script>
     <script type="text/javascript" src="js/my.js"></script>
     <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
@@ -42,27 +46,42 @@
 
         <div class="page page1" id="div1">
             <div class="contain">
-            <p>hello world!</p>
+            <p class="pone">hello world!</p>
             </div>
         </div>
 
         <div class="page page2">
             <div class="contain">
                 <div class="personal">
-                    <h2>个人简介</h2>
-                    <div class="left">
-
-                        <h3>就读院校：徐州工程学院</h3>
-                        <h3>专业：计算机科学与技术（卓越）</h3>
-                        <h3>学历：本科</h3>
-                        <h3>英语能力：CET-4(468)目前参加github上关于freecodecamp.cn的中文社区翻译</h3>
-                    </div>
-                    <div class="right">
-                        <h3>关于我</h3>
-                        <h4>性格乐观，抗得住高压；是一个对前端开发具有极大兴趣的小菜鸟！！大二下学期坚定了要走前端开发这条道路的心；喜欢各种炫酷的前端技能，目前正在学习各种技能中...
-                        对服务器端开发有一定了解，能够配合程序员完成相关工作。
-                        熟悉 java，asp.net,c#和sql语言；理解基本的算法分析与数据结构，以及面向对象的设计模式。</h4>
-                    </div>
+                    <h2>关于我</h2>
+                    <ul class="grid cs-style-4">
+                        <li>
+                            <figure>
+                                <div><img src="images/z.jpg" alt="img05"></div>
+                                <figcaption>
+                                    <h3>学历</h3>
+                                    <p>本科.徐州工程学院</p>
+                                    <h3>专业</h3>
+                                    <p>计算机科学与技术.卓越</p>
+                                    <h3>英语</h3>
+                                    <p>CET-4(468)</p>
+                                    <p>
+                                    目前参加github上关于freecodecamp.cn的中文社区翻译
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <div><img src="images/m.png" alt="img06"></div>
+                                <figcaption>
+                                <span>
+                                    性格乐观，抗得住高压；喜欢各种炫酷的前端技能，目前正在学习各种技能中... 对服务器端开发有一定了解，能够配合程序员完成相关工作。 熟悉 java，asp.net,c#和sql语言；理解基本的算法分析与数据结构，以及面向对象的设计模式。
+                                </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -87,7 +106,7 @@
 
         <div class="page page4">
             <div class="contain">
-                <p>mm<a href="周密密-应聘web前端实习生.doc" >下载简历</a></p>
+
             </div>
         </div>
 
@@ -111,8 +130,9 @@
         <li></li>
         <li></li>
     </ul>
-
+<script src="js/toucheffects.js"></script>
 <script type="text/javascript" src="js/fullPage.min.js"></script>
+
 <script type="text/javascript">
 
 var runPage;
