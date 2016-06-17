@@ -10,9 +10,6 @@
         background:#BDC3C7;
         background-image:url('../images/back.jpg');
         background-size:cover;
-
-
-
 }
 
 input[type^=button]{
@@ -100,6 +97,123 @@ input[value^=项目经验] {
         }
 #tabtn{
         	margin:12% 20%;
+        }
+/*page1*/
+.per{
+    position:absolute;
+    overflow:hidden;
+    width:1366px;
+    height:668px;
+    top:120px;
+    left:0px;
+    text-align:center;
+
+}
+.person{
+    position:absolute;
+    overflow:hidden;
+    width:1366px;
+    height:668px;
+    top:70px;
+    left:0px;
+    text-align:center;
+
+}
+.ima{
+        position: absolute;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        margin-left:608px;
+}
+.ima:hover{
+        box-shadow:0 0 30px #fff ;
+        -webkit-animation:im 1.5s linear forwards;
+        -moz-animation:im 1.5s linear forwards;
+        -ms-animation:im 1.5s linear forwards;
+        -o-animation:im 1.5s linear forwards;
+}
+
+@-webkit-keyframes im
+{
+    0%{-webkit-opacity:1;}
+    25%{-webkit-opacity:0.75;}
+    50%{-webkit-opacity:0.5;}
+    100%{-webkit-opacity:0;}
+}
+@-moz-keyframes im
+{
+    0%{-moz-opacity:1;}
+    25%{-moz-opacity:0.75;}
+    50%{-moz-opacity:0.5;}
+    100%{-moz-opacity:0;}
+}
+-o-keyframes im
+{
+    0%{-o-opacity:1;}
+    25%{-o-opacity:0.75;}
+    50%{-o-opacity:0.5;}
+    100%{-o-opacity:0;}
+}
+
+-ms-keyframes im{
+    0%{-ms-opacity:1;}
+    25%{-ms-opacity:0.75;}
+    50%{-ms-opacity:0.5;}
+    100%{-ms-opacity:0;}
+}
+
+.pone {
+        position:relative;
+        top:150px;
+        color:#fff;
+        font-size:30px;
+        text-align: center;
+        opacity: 1;
+        transition: all .8s ease;
+        transform-origin: 50% 50%;
+        font-family:Garamond;
+        -webkit-animation-name:myp;
+        -webkit-animation-duration:3s;
+        -webkit-animation-timing-function:linear;
+
+        -moz-animation-name:myp;
+        -moz-animation-duration:3s;
+        -moz-animation-timing-function:linear;
+
+        -ms-animation-name:myp;
+        -ms-animation-duration:3s;
+        -ms-animation-timing-function:linear;
+
+        -o-animation-name:myp;
+        -o-animation-duration:3s;
+        -o-animation-timing-function:linear;
+    }
+
+    @-webkit-keyframes myp
+        {
+            0%{font-size:0px;}
+            50%{font-size:15px;}
+            100%{font-size:30px;}
+        }
+            @-moz-keyframes myp
+        {
+            0%{font-size:0px;}
+            50%{font-size:15px;}
+            100%{font-size:30px;}
+        }
+            @-o-keyframes myp
+        {
+            0%{font-size:0px;}
+            50%{font-size:15px;}
+            100%{font-size:30px;}
+        }
+            @-ms-keyframes myp
+        {
+            0%{font-size:0px;}
+            50%{font-size:15px;}
+            100%{font-size:30px;}
         }
 
 /*page2*/

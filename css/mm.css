@@ -115,7 +115,7 @@
         -webkit-transition-duration: 0ms !important;
     }
     .page1 {
-        background: #33CC66;
+        background: #88dba3;
     }
     .page2 {
         background: #79bd9a;
@@ -124,13 +124,13 @@
         background: #88dba3;
     }
     .page4 {
-        background: #33CC66;
+        background: #79bd9a;
     }
     .page5 {
         background: #66CC66;
     }
     .page6 {
-        background: #79bd9a;
+        background: #33CC66;
     }
      #navBar {
         z-index: 3;
@@ -143,7 +143,7 @@
     }
     #navBar li {
         background: transparent;
-        border: 1px solid #ccc;
+        border: 1px solid #ffffff;
         cursor: pointer;
         margin-bottom: 10px;
         transition: all .7s ease;
@@ -154,61 +154,8 @@
         height: 14px;
     }
 
-        .pone {
-        width: 100%;
-        color:#fff;
-        font-size:150px;
-        text-align: center;
-        margin:13% 5%;
-        opacity: 1;
-        transition: all .8s ease;
-        transform-origin: 50% 50%;
-        font-family:Garamond;
-        -webkit-animation-name:myp;
-        -webkit-animation-duration:2s;
-        -webkit-animation-timing-function:linear;
 
-        -moz-animation-name:myp;
-        -moz-animation-duration:2s;
-        -moz-animation-timing-function:linear;
 
-        -ms-animation-name:myp;
-        -ms-animation-duration:2s;
-        -ms-animation-timing-function:linear;
-
-        -o-animation-name:myp;
-        -o-animation-duration:2s;
-        -o-animation-timing-function:linear;
-    }
-
-    @-webkit-keyframes myp
-        {
-            0%{font-size:10px;}
-            30%{font-size:50px;}
-            60%{font-size:100px;}
-            100%{font-size:150px;}
-        }
-            @-moz-keyframes myp
-        {
-            0%{font-size:10px;}
-            30%{font-size:50px;}
-            60%{font-size:100px;}
-            100%{font-size:150px;}
-        }
-            @-o-keyframes myp
-        {
-            0%{font-size:10px;}
-            30%{font-size:50px;}
-            60%{font-size:100px;}
-            100%{font-size:150px;}
-        }
-            @-ms-keyframes myp
-        {
-            0%{font-size:10px;}
-            30%{font-size:50px;}
-            60%{font-size:100px;}
-            100%{font-size:150px;}
-        }
 
     /*
     .step1 p {
