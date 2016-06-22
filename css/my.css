@@ -1,103 +1,7 @@
 @charset "utf-8";
 /*mynote*/
-.back{
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        position: absolute;
-        top: 0;
-        left: 0;
-        background:#BDC3C7;
-        background-image:url('../images/back.jpg');
-        background-size:cover;
-}
-
-input[type^=button]{
-	 	width:150px;
-        height:150px;
-        font-family:微软雅黑;
-        font-size:16px;
-        color:#EFFFE9;
-        border:1px solid #fff;
-        border-radius:75px;
-		-webkit-border-radius:75px;  /*兼容chrome和Safari*/
-		-moz-border-radius:75px;     /*兼容Firefox*/
-		-ms-border-radius:75px;      /*兼容IE*/
-		-o-border-radius:75px;       /*兼容opera*/
-        background-color:#66CC66;
-        box-shadow:0 0 20px #fff;
 
 
-}
-@-webkit-keyframes mybtn
-        {
-            0%{-webkit-transform:translateX(0px);}
-            30%{-webkit-transform:translateX(-10px);}
-            60%{-webkit-transform:translateX(10px);}
-            100%{-webkit-transform:translateX(0px);}
-
-        }
-   @-moz-keyframes mybtn
-        {
-            0%{-moz-transform:translateX(0px);}
-            30%{-moz-transform:translateX(-10px);}
-            60%{-moz-transform:translateX(10px);}
-            100%{-moz-transform:translateX(0px);}
-        }
- @-ms-keyframes mybtn
-        {
-            0%{-ms-transform:translateX(0px);}
-            30%{-ms-transform:translateX(-10px);}
-            60%{-ms-transform:translateX(10px);}
-            100%{-ms-transform:translateX(0px);}
-
-        }
-@-o-keyframes mybtn
-        {
-            0%{-o-transform:translateX(0px);}
-            30%{-o-transform:translateX(-10px);}
-            60%{-o-transform:translateX(10px);}
-            100%{-o-transform:translateX(0px);}
-        }
-
-input[type^=button]:hover {
-			font-size:25px;
-
-			-webkit-animation-name:mybtn;
-            -webkit-animation-duration:0.5s;
-            -webkit-animation-timing-function:linear;
-
-			-moz-animation-name:mybtn;
-            -moz-animation-duration:0.5s;
-            -moz-animation-timing-function:linear;
-
-            -ms-animation-name:mybtn;
-            -ms-animation-duration:0.5s;
-            -ms-animation-timing-function:linear;
-
-            -o-animation-name:mybtn;
-            -o-animation-duration:0.5s;
-            -o-animation-timing-function:linear;
-        }
-
-input[value^=html] {
-						background-color:#f26d5b;
-        }
-input[value^=css] {
-						background-color:#a8dba8;
-        }
-input[value^=js] {
-						background-color:#79bd9a;
-        }
-input[value^=jQuery] {
-						background-color:#3b8686;
-        }
-input[value^=项目经验] {
-						background-color:#004e66;
-        }
-#tabtn{
-        	margin:12% 20%;
-        }
 /*page1*/
 .per{
     position:absolute;
@@ -109,16 +13,7 @@ input[value^=项目经验] {
     text-align:center;
 
 }
-.person{
-    position:absolute;
-    overflow:hidden;
-    width:1366px;
-    height:668px;
-    top:70px;
-    left:0px;
-    text-align:center;
 
-}
 .ima{
         position: absolute;
         border: 1px solid #fff;
@@ -225,7 +120,6 @@ input[value^=项目经验] {
     top:100px;
     left:100px;
     box-shadow:0 0 30px #FFFFF3;
-
 }
 .left{
     margin:0 3%;
@@ -241,8 +135,8 @@ input[value^=项目经验] {
     float:left;
     width:350px;
 }
+
 /*page3*/
-/**/
 h2{
     text-align:center;
     color:#FFFFF3;
@@ -355,3 +249,146 @@ input[type^=text]{
             75%{-o-opacity:0.75;}
             100%{-o-opacity:1;}
         }
+/*page4*/
+.permy{
+    position:absolute;
+    overflow:hidden;
+    width:1200px;
+    height:500px;
+    top:120px;
+    left:300px;
+    text-align:center;
+
+}
+input[type^=button]{
+        width:150px;
+        height:150px;
+        font-family:微软雅黑;
+        font-size:16px;
+        color:#EFFFE9;
+        border:1px solid #fff;
+        border-radius:37px;
+        -webkit-border-radius:37px;  /*兼容chrome和Safari*/
+        -moz-border-radius:75px;     /*兼容Firefox*/
+        -ms-border-radius:75px;      /*兼容IE*/
+        -o-border-radius:75px;       /*兼容opera*/
+}
+@-webkit-keyframes mybtn
+        {
+            0%{-webkit-transform:translateX(0px);}
+            30%{-webkit-transform:translateX(-10px);}
+            60%{-webkit-transform:translateX(10px);}
+            100%{-webkit-transform:translateX(0px);}
+
+        }
+   @-moz-keyframes mybtn
+        {
+            0%{-moz-transform:translateX(0px);}
+            30%{-moz-transform:translateX(-10px);}
+            60%{-moz-transform:translateX(10px);}
+            100%{-moz-transform:translateX(0px);}
+        }
+ @-ms-keyframes mybtn
+        {
+            0%{-ms-transform:translateX(0px);}
+            30%{-ms-transform:translateX(-10px);}
+            60%{-ms-transform:translateX(10px);}
+            100%{-ms-transform:translateX(0px);}
+
+        }
+@-o-keyframes mybtn
+        {
+            0%{-o-transform:translateX(0px);}
+            30%{-o-transform:translateX(-10px);}
+            60%{-o-transform:translateX(10px);}
+            100%{-o-transform:translateX(0px);}
+        }
+
+input[type^=button]:hover {
+            font-size:25px;
+            box-shadow:0 0 20px #fff;
+
+            -webkit-animation-name:mybtn;
+            -webkit-animation-duration:0.5s;
+            -webkit-animation-timing-function:linear;
+
+            -moz-animation-name:mybtn;
+            -moz-animation-duration:0.5s;
+            -moz-animation-timing-function:linear;
+
+            -ms-animation-name:mybtn;
+            -ms-animation-duration:0.5s;
+            -ms-animation-timing-function:linear;
+
+            -o-animation-name:mybtn;
+            -o-animation-duration:0.5s;
+            -o-animation-timing-function:linear;
+        }
+
+input[value*=web] {
+                        background-color:#f26d5b;
+        }
+input[value*=界面] {
+                        background-color:#a8dba8;
+        }
+input[value*=商品] {
+                        background-color:#55967e;
+        }
+input[value*=学习] {
+                        background-color:#3b8686;
+        }
+input[value*=建设] {
+                        background-color:#004e66;
+        }
+
+ /*page6*/
+.cen{
+    position:absolute;
+    overflow:hidden;
+    width:1100px;
+    height:450px;
+    top:100px;
+    left:100px;
+    text-align:center;
+    line-height:450px;/*文字垂直居中*/
+    font-size:60px;
+    color:transparent;
+    text-stroke:2px #000000;
+    -webkit-text-stroke:2px #000000;
+    -webkit-animation: mycen 2s ease forwards;
+    overflow:hidden;
+}
+@-webkit-keyframes mycen
+        {
+            0%{-webkit-transform:translateY(-500px);font-size:30px;}
+            30%{-webkit-transform:translateY(-200px);font-size:50px;}
+            60%{-webkit-transform:translateY(100px);font-size:80px;}
+            100%{-webkit-transform:translateY(0px);font-size:60px;}
+
+        }
+   @-moz-keyframes mycen
+        {
+            0%{-moz-transform:translateY(-500px);font-size:30px;}
+            30%{-moz-transform:translateY(-200px);font-size:50px;}
+            60%{-moz-transform:translateY(100px);font-size:80px;}
+            100%{-moz-transform:translateY(0px);font-size:60px;}
+        }
+ @-ms-keyframes mycen
+        {
+            0%{-ms-transform:translateY(-500px);font-size:30px;}
+            30%{-ms-transform:translateY(-200px);font-size:50px;}
+            60%{-ms-transform:translateY(100px);font-size:80px;}
+            100%{-ms-transform:translateY(0px);font-size:60px;}
+
+        }
+@-o-keyframes mycen
+        {
+            0%{-o-transform:translateY(-500px);font-size:30px;}
+            30%{-o-transform:translateY(-200px);font-size:50px;}
+            60%{-o-transform:translateY(100px);font-size:80px;}
+            100%{-o-transform:translateY(0px);font-size:60px;}
+        }
+
+.cen:hover{
+
+}

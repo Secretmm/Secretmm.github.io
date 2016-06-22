@@ -1,0 +1,98 @@
+@charset "utf-8";
+/*mynote*/
+.back{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background:#ED9282;
+        background-image:url('../images/back.jpg');
+        background-size:cover;
+}
+
+input[type^=button]{
+	 	width:150px;
+        height:150px;
+        font-family:微软雅黑;
+        font-size:16px;
+        color:#EFFFE9;
+        border:1px solid #fff;
+        border-radius:75px;
+		-webkit-border-radius:75px;  /*兼容chrome和Safari*/
+		-moz-border-radius:75px;     /*兼容Firefox*/
+		-ms-border-radius:75px;      /*兼容IE*/
+		-o-border-radius:75px;       /*兼容opera*/
+        background-color:transparent;
+}
+@-webkit-keyframes mybtn
+        {
+            0%{-webkit-transform:translateX(0px);}
+            30%{-webkit-transform:translateX(-10px);}
+            60%{-webkit-transform:translateX(10px);}
+            100%{-webkit-transform:translateX(0px);}
+
+        }
+   @-moz-keyframes mybtn
+        {
+            0%{-moz-transform:translateX(0px);}
+            30%{-moz-transform:translateX(-10px);}
+            60%{-moz-transform:translateX(10px);}
+            100%{-moz-transform:translateX(0px);}
+        }
+ @-ms-keyframes mybtn
+        {
+            0%{-ms-transform:translateX(0px);}
+            30%{-ms-transform:translateX(-10px);}
+            60%{-ms-transform:translateX(10px);}
+            100%{-ms-transform:translateX(0px);}
+
+        }
+@-o-keyframes mybtn
+        {
+            0%{-o-transform:translateX(0px);}
+            30%{-o-transform:translateX(-10px);}
+            60%{-o-transform:translateX(10px);}
+            100%{-o-transform:translateX(0px);}
+        }
+
+input[type^=button]:hover {
+			font-size:25px;
+            box-shadow:0 0 20px #fff;
+
+			-webkit-animation-name:mybtn;
+            -webkit-animation-duration:0.5s;
+            -webkit-animation-timing-function:linear;
+
+			-moz-animation-name:mybtn;
+            -moz-animation-duration:0.5s;
+            -moz-animation-timing-function:linear;
+
+            -ms-animation-name:mybtn;
+            -ms-animation-duration:0.5s;
+            -ms-animation-timing-function:linear;
+
+            -o-animation-name:mybtn;
+            -o-animation-duration:0.5s;
+            -o-animation-timing-function:linear;
+        }
+/*input[value^=html] {
+                        background-color:#f26d5b;
+        }
+input[value^=css] {
+                        background-color:#a8dba8;
+        }
+input[value^=js] {
+                        background-color:#79bd9a;
+        }
+input[value^=jQuery] {
+                        background-color:#3b8686;
+        }
+input[value^=项目经验] {
+                        background-color:#004e66;
+        }*/
+
+#tabtn{
+        	margin:12% 20%;
+        }
